@@ -21,14 +21,8 @@ webpackEmptyAsyncContext.id = 108;
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"../pages/himym/himym.module": [
+	"../pages/pg/pg.module": [
 		150
-	],
-	"../pages/pll/pll.module": [
-		152
-	],
-	"../pages/supernatural/supernatural.module": [
-		154
 	]
 };
 function webpackAsyncContext(req) {
@@ -52,10 +46,10 @@ module.exports = webpackAsyncContext;
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HimymPageModule", function() { return HimymPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PugPageModule", function() { return PugPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__himym__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pg__ = __webpack_require__(151);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -65,23 +59,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var HimymPageModule = /** @class */ (function () {
-    function HimymPageModule() {
+var PugPageModule = /** @class */ (function () {
+    function PugPageModule() {
     }
-    HimymPageModule = __decorate([
+    PugPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__himym__["a" /* HimymPage */],
+                __WEBPACK_IMPORTED_MODULE_2__pg__["a" /* PugPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__himym__["a" /* HimymPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__pg__["a" /* PugPage */]),
             ],
         })
-    ], HimymPageModule);
-    return HimymPageModule;
+    ], PugPageModule);
+    return PugPageModule;
 }());
 
-//# sourceMappingURL=himym.module.js.map
+//# sourceMappingURL=pg.module.js.map
 
 /***/ }),
 
@@ -89,9 +83,9 @@ var HimymPageModule = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HimymPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PugPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(33);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -104,208 +98,40 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the HimymPage page.
+ * Generated class for the PugPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var HimymPage = /** @class */ (function () {
-    function HimymPage(navCtrl, navParams) {
+var PugPage = /** @class */ (function () {
+    function PugPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    HimymPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad HimymPage');
+    PugPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad PugPage');
     };
-    HimymPage = __decorate([
+    PugPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-himym',template:/*ion-inline-start:"/home/renan/Vídeos/aula1/src/pages/himym/himym.html"*/'<!--\n  Generated template for the HimymPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>himym</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/home/renan/Vídeos/aula1/src/pages/himym/himym.html"*/,
+            selector: 'page-pg',template:/*ion-inline-start:"C:\Users\thais.lopes\ionic-app-series\src\pages\pg\pg.html"*/'<!--\n\n  Generated template for the PugPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>dog</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n  <ion-card>\n\n    <ion-item>\n\n      <ion-avatar item-start>\n\n        <img src="../../assets/imgs/pugs/pugd.jpg">\n\n      </ion-avatar>\n\n      <h2>PUGS</h2>\n\n      <p>Curiosidades</p>\n\n    </ion-item>\n\n\n\n    <img src="../../assets/imgs/pugs/pug-4.jpg">\n\n\n\n    <ion-card-content>\n\n      <p>O cão é pequeno e possui o focinho bastante achatado e os pelos curtos. O seu rabo em espiral causa muito sucesso entre \n\n        as pessoas, e sendo de pequeno porte, chega a alcançar entre 25 e 28 cm de altura e entre 6 e 11 kg. Podem ter coloração \n\n        abricó castanha, preta ou prateada e normalmente seguem o estilo de vida de seu dono: calmo e dócil ou mais brincalhão. \n\n        Sua expectativa de vida é entre 13 e 15 anos.</p>\n\n    </ion-card-content>\n\n\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-item>\n\n      <ion-avatar item-start>\n\n        <img src="../../assets/imgs/pugs/pugd.jpg">\n\n      </ion-avatar>\n\n      <h2>PUGS</h2>\n\n      <p>Historia</p>\n\n    </ion-item>\n\n\n\n    <img src="../../assets/imgs/pugs/pug-3.jpg">\n\n\n\n    <ion-card-content>\n\n      <p>Pug é uma raça muito antiga, de origem chinesa. Foram encontrados cães similares na China nos anos de de 1700 a.C. No que se \n\n        refere à raça, acredita-se que o Pug descende do cruzamento entre Pequineses e pequenos Mastins. Entretanto, também é viável a \n\n        possibilidade de que a raça tenha surgido da mistura entre o Pequinês e o Spaniel Japones.</p>\n\n    </ion-card-content>\n\n\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-item>\n\n      <ion-avatar item-start>\n\n        <img src="../../assets/imgs/pugs/pugd.jpg">\n\n      </ion-avatar>\n\n      <h2>PUGS</h2>\n\n      <p>Cuidados</p>\n\n    </ion-item>\n\n\n\n    <img src="../../assets/imgs/pugs/pug-2.jpg">\n\n\n\n    <ion-card-content>\n\n      <p>Pugs têm tendência à obesidade, por isso é importante não dar comida caseira ou ração em excesso para esses animais, pois \n\n        a obesidade pode resultar em uma série de problemas de saúde mais graves ainda.Pugs são cachorros braquicefálicos, ou seja, \n\n        cachorros com o focinho "achatado". Cães com essa características tem sistema respiratório superior comprimido e portanto \n\n        não toleram muito exercício físico.</p>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\thais.lopes\ionic-app-series\src\pages\pg\pg.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
-    ], HimymPage);
-    return HimymPage;
+    ], PugPage);
+    return PugPage;
 }());
 
-//# sourceMappingURL=himym.js.map
+//# sourceMappingURL=pg.js.map
 
 /***/ }),
 
-/***/ 152:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PllPageModule", function() { return PllPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pll__ = __webpack_require__(153);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-var PllPageModule = /** @class */ (function () {
-    function PllPageModule() {
-    }
-    PllPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__pll__["a" /* PllPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__pll__["a" /* PllPage */]),
-            ],
-        })
-    ], PllPageModule);
-    return PllPageModule;
-}());
-
-//# sourceMappingURL=pll.module.js.map
-
-/***/ }),
-
-/***/ 153:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PllPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the PllPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var PllPage = /** @class */ (function () {
-    function PllPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    PllPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad PllPage');
-    };
-    PllPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-pll',template:/*ion-inline-start:"/home/renan/Vídeos/aula1/src/pages/pll/pll.html"*/'<!--\n  Generated template for the PllPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>pll</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/pll/pll-logo.jpg">\n      </ion-avatar>\n      <h2>Pretty Little Liars</h2>\n      <p>7ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/pll/pll-7.jpg">\n\n    <ion-card-content>\n      <p>Essa temporada cheia de voltas ao lar e reuniões é a mais fatal e mais romântica até agora. Os transtornos\n        românticos envolvem "Ezria", "Spaleb" e "Haleb", enquanto a lista de suspeitos para "Uber A" está crescendo.\n        Depois de terem cometido o maior erro de suas vidas, as mentirosas se juntam para descobrir respostas –\n        incluindo quem matou Jessica e Charlotte DiLaurentis – na jornada para a pergunta final: quem, por Deus, é\n        "A.D."? Mentiras passadas e segredos sujos vêm à tona nos últimos episódios da série de suspense esmagador que\n        transformou entretenimento, moda e fãs.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>85442 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>285148 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          1a ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/pll/pll-logo.jpg">\n      </ion-avatar>\n      <h2>Pretty Little Liars</h2>\n      <p>6ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/pll/pll-6.jpg">\n\n    <ion-card-content>\n      <p>Cada um das meninas têm prosseguido com seus próprios caminhos e começaram a se ajustar a uma vida sem "A",\n        quando algo acontece em Rosewood que as obriga a voltar para onde tudo começou. Divididas entre seus velhos\n        hábitos e as suas novas vidas, os eventos em Rosewood obrigam as mentirosas à unir forças, mais uma vez, como as\n        relações são postas à prova e segredos são revelados. Tendo amadurecido ao longo dos últimos anos, estas não são\n        as mesmas meninas que saíram de Rosewood. À medida que novas mentiras surgem - como elas vão seguir em frente\n        sem voltar atrás? </p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>87550 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>54786 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          2a ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/pll/pll-logo.jpg">\n      </ion-avatar>\n      <h2>Pretty Little Liars</h2>\n      <p>5ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/pll/pll-5.png">\n\n    <ion-card-content>\n      <p>Com mais perguntas do que nunca e outros rostos familiares de volta à Rosewood, há agora cinco mentirosas\n        tentando juntar as peças para saber quem vem atormentando-as. Ao meio de muito segredos uma confissão\n        surpreendente é revelada e divide as cinco amigas, e o jogo fica mais longe de terminar. Alison é realmente "A"?\n        Ou "A" está fingindo ser Alison? Na verdade, um novo jogo está começando... um onde sobreviver ao último ano\n        pode ser o mais desafio difícil das mentirosas até o momento! </p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>784651 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>324684 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          3a ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/pll/pll-logo.jpg">\n      </ion-avatar>\n      <h2>Pretty Little Liars</h2>\n      <p>4ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/pll/pll-4.png">\n\n    <ion-card-content>\n      <p>Com "A" à espreita nas sombras e a verdade sobre Alison mais perto do que nunca, terminar o ensino médio nunca\n        foi tão perigoso, então as mentirosas ficam mais ousadas em seu trabalho de detetive - e nas histórias que elas\n        contam para encobrir seus segredos! O suspense continua a aumentar e relacionamentos são colocados em risco\n        enquanto as meninas tentam descobrir se sua amiga está, na verdade, viva ou morta - e se ela está viva, será que\n        Alison está apenas zombando delas ou buscando por ajuda? </p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>35468 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>2168154 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          4a ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/pll/pll-logo.jpg">\n      </ion-avatar>\n      <h2>Pretty Little Liars</h2>\n      <p>3ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/pll/pll-3.png">\n\n    <ion-card-content>\n      <p>A primeira parte aborda a questão se Garrett realmente matou ou estava envolvido no assassinato de Maya ou da\n        amiga das meninas e "abelha rainha", Alison. E também se concentra em como Mona conseguiu seu papel como "A" e\n        porquê, desde então, alguém tomou seu lugar como líder da Equipe A. Já a segunda parte lida com outra revelação\n        de "A" e as consequências, enquanto a misteriosa Casaco Vermelho persegue as meninas </p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>79465 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>375153 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          5a ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/pll/pll-logo.jpg">\n      </ion-avatar>\n      <h2>Pretty Little Liars</h2>\n      <p>2ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/pll/pll-2.png">\n\n    <ion-card-content>\n      <p> Com sua vida em casa num verdadeiro tumulto, Spencer permanece focada em sua família e surpreendente com o\n        apoio que ela recebe de seus pais. Emily, por outro lado, não consegue encontrar a solução que suas amigas estão\n        conseguindo, mas faz de tudo para encontrar qualquer vestígio de evidência que elas possam ter deixado passar.\n        Aria procura encontrar conforto em Ezra, mas com o seu relacionamento ainda novo para o mundo afora, o casal se\n        esforça para tornar esse relacionamento publico. Com todo mundo tendo conforto e compartilhando um enorme\n        suspiro de alívio, Emily pode estar certa e o diabo que elas pensaram que estava descansando não é nada perto do\n        mal que ainda paira por aí.. </p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>764684 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>354645 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          6a ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/pll/pll-logo.jpg">\n      </ion-avatar>\n      <h2>Pretty Little Liars</h2>\n      <p>1ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/pll/pll-1.png">\n\n    <ion-card-content>\n      <p>Com o mistério em torno do desaparecimento de Alison, Aria muda-se e depois de um ano retorna a pacata cidade.\n        A partir desse dia, quando todas estão "juntas" novamente, as meninas começam a receber mensagens de "A" que as\n        faz pensar que Alison ainda estaria viva, contendo coisas que apenas Alison sabia, além de várias ofensas as\n        garotas. Mas não poderia ser Alison, poderia? Com o decorrer da série, são apresentados vários suspeitos. Quem\n        quer que seja, ele (a) parece saber todos os segredos das meninas e está observando cada um de seus movimentos.\n        As meninas são amigas novamente, e elas estarão uma com a outra quando os seus segredos vierem à tona. </p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>35464354 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>6874635 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          7a ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n</ion-content>'/*ion-inline-end:"/home/renan/Vídeos/aula1/src/pages/pll/pll.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
-    ], PllPage);
-    return PllPage;
-}());
-
-//# sourceMappingURL=pll.js.map
-
-/***/ }),
-
-/***/ 154:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SupernaturalPageModule", function() { return SupernaturalPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__supernatural__ = __webpack_require__(155);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-var SupernaturalPageModule = /** @class */ (function () {
-    function SupernaturalPageModule() {
-    }
-    SupernaturalPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__supernatural__["a" /* SupernaturalPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__supernatural__["a" /* SupernaturalPage */]),
-            ],
-        })
-    ], SupernaturalPageModule);
-    return SupernaturalPageModule;
-}());
-
-//# sourceMappingURL=supernatural.module.js.map
-
-/***/ }),
-
-/***/ 155:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SupernaturalPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the SupernaturalPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var SupernaturalPage = /** @class */ (function () {
-    function SupernaturalPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    SupernaturalPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad SupernaturalPage');
-    };
-    SupernaturalPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-supernatural',template:/*ion-inline-start:"/home/renan/Vídeos/aula1/src/pages/supernatural/supernatural.html"*/'<!--\n  Generated template for the SupernaturalPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>supernatural</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/spn/spn.png">\n      </ion-avatar>\n      <h2>Supernatural</h2>\n      <p>14ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/spn/spn-14.jpg">\n\n    <ion-card-content>\n      <p>Ainda tentando se acostumar a viver sem seus poderes, Jack (Alexander Calvert) visita os avós com a intenção de\n        estabelecer alguma conexão familiar. Em uma tentaiva de encontrar Dean (Jensen Ackles), Castiel (Misha Collins)\n        acaba conhecendo Kip (Dean Armstrong), um demônio que deseja fazer um acordo com Sam (Jared Padalecki) para se\n        tornar o novo Rei do Inferno.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>12 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>4 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          11h ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/spn/spn.png">\n      </ion-avatar>\n      <h2>Supernatural</h2>\n      <p>13ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/spn/spn-13.jpg">\n\n    <ion-card-content>\n      <p>Dean (Jensen Ackles) e Sam (Jared Padalecki) sofrem com a perda de tantos aliados. Lúcifer (Mark Pellegrino)\n        mantém Mary (Samantha Smith) viva, como refém, para poder trocá-la por seu filho. Dean fica esperançoso quando\n        Jack (Alexander Calvert) involuntariamente traz Castiel (Misha Collins) de volta à vida.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>120 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>40 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          12h ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/spn/spn.png">\n      </ion-avatar>\n      <h2>Supernatural</h2>\n      <p>12ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/spn/spn-12.jpg">\n\n    <ion-card-content>\n      <p>Dean (Jensen Ackles) reencontra uma velha amiga após 30 anos sem se verem. Sam (Jared Padalecki) é capturado\n        por Lady Bevell (Elizabeth Blackmore) e torturado como punição por seus pecados passados. Dean, Mary (Samantha\n        Smith) e Castiel (Misha Collins), então, bolam um plano para resgatar o irmão Winchester sequestrado.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>200 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>400 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          15h ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/spn/spn.png">\n      </ion-avatar>\n      <h2>Supernatural</h2>\n      <p>11ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/spn/spn-11.jpg">\n\n    <ion-card-content>\n      <p>Enquanto Crowley (Mark Sheppard) cuida de Amara (Emily Swallow), alimentando-a com almas, Sam (Jared\n        Padalecki), Dean (Jensen Ackles) e Castiel (Misha Collins) tentam encontrar uma maneira de matar a Escuridão,\n        aprisionada no corpo da moça.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>500 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>685 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          18h ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/spn/spn.png">\n      </ion-avatar>\n      <h2>Supernatural</h2>\n      <p>10ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/spn/spn-10.jpg">\n\n    <ion-card-content>\n      <p>Sam (Jared Padalecki) procura por Dean (Jensen Ackles), que, após ser ressuscitado pela marca de Caim, agora é\n        um demônio trabalhando para Crowley (Mark Sheppard). Enquanto isso, Rowena (Ruth Connell), uma misteriosa bruxa,\n        entra em cena.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>967 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>1200 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          22h ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/spn/spn.png">\n      </ion-avatar>\n      <h2>Supernatural</h2>\n      <p>9ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/spn/spn-9.jpg">\n\n    <ion-card-content>\n      <p>Depois que anjos caíram na Terra, duas facções angelicais passam a brigar uma com a outra, enquanto outras\n        vagam pelo mundo causando problemas ou caçando Castiel (Misha Collins). Sam (Jared Padalecki) e Dean (Jensen\n        Ackles) mantêm Crowley (Mark Sheppard) como prisioneiro e tentam transformá-lo de volta em ser humano.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>1500 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>2000 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          24h ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/spn/spn.png">\n      </ion-avatar>\n      <h2>Supernatural</h2>\n      <p>8ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/spn/spn-8.jpg">\n\n    <ion-card-content>\n      <p>Dean (Jensen Ackles) retorna à Terra sem Castiel (Misha Collins), um ano depois de ser arrastado para o\n        Purgatório. Os irmãos Winchester começam uma luta contra Crowley (Mark Sheppard), com o objetivo de trancar as\n        Portas do Inferno e prender todos os demônios de uma vez por todas.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>785 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>3500 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          1d ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/spn/spn.png">\n      </ion-avatar>\n      <h2>Supernatural</h2>\n      <p>7ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/spn/spn-7.jpg">\n\n    <ion-card-content>\n      <p>Após absorver as almas do Purgatório, Castiel (Misha Collins) passa a punir todos os malfeitores do mundo. Sam\n        (Jared Padalecki) e Dean (Jensen Ackles) descobrem uma de suas maiores fraquezas e iniciam uma missão de caça\n        aos Leviatãs. Enquanto isso, o fantasma de um velho conhecido continua os assombrando.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>4350 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>3687 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          1d ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/spn/spn.png">\n      </ion-avatar>\n      <h2>Supernatural</h2>\n      <p>6ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/spn/spn-6.jpg">\n\n    <ion-card-content>\n      <p>Um ano depois, Dean (Jensen Ackles) vive feliz na companhia de Lisa (Cindy Sampson) e Ben (Nicholas Elia). Mas\n        quando reencontra Sam (Jared Padalecki), ele é obrigado a abandonar a nova vida e trabalhar com seu avô Samuel\n        (Mitch Pileggi), que se dedica à captura de monstros.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>5684 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>11502 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          2d ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/spn/spn.png">\n      </ion-avatar>\n      <h2>Supernatural</h2>\n      <p>5ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/spn/spn-5.jpg">\n\n    <ion-card-content>\n      <p>Enquanto Castiel (Misha Collins) procura por Deus para impedir o Apocalipse de Lúcifer, Sam (Jared Padalecki) e\n        Dean (Jensen Ackles) lutam contra anjos, demônios e seu destino, que é servirem de "hospedeiros" para o Diabo e\n        o Arcanjo Miguel, respectivamente.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>15204 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>20154 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          3d ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/spn/spn.png">\n      </ion-avatar>\n      <h2>Supernatural</h2>\n      <p>4ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/spn/spn-4.jpg">\n\n    <ion-card-content>\n      <p>Dean (Jensen Ackles) é resgatado do inferno por um anjo chamado Castiel (Misha Collins), com quem os Winchester\n        constroem uma parceria para impedir que Lilith rompa os 66 selos e, assim, permitindo que Lúcifer ande sobre a\n        terra livremente.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>18289 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>22154 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          4d ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/spn/spn.png">\n      </ion-avatar>\n      <h2>Supernatural</h2>\n      <p>3ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/spn/spn-3.jpg">\n\n    <ion-card-content>\n      <p>Na esperança de desfazerem o acordo de Dean (Jensen Ackles) sobre ser obrigado a ir para o inferno, os irmãos\n        Winchester pedem ajuda à Ruby (Genevieve Padalecki), um demônio do bem, e à Bela Talbot (Lauren Cohan), uma\n        vendedora de objetos ocultos.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>20204 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>25574 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          5d ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/spn/spn.png">\n      </ion-avatar>\n      <h2>Supernatural</h2>\n      <p>2ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/spn/spn-2.jpg">\n\n    <ion-card-content>\n      <p>Sam (Jared Padalecki) e Dean (Jensen Ackles) precisam lidar com uma perda recente. Enquanto isso, eles decidem\n        se vingar de Azazel (Fredric Lehne), e de toda as tragédias causadas por ele, e recebem a ajuda de Bobby (Jim\n        Beaver), Ellen (Samantha Ferris), Jo (Alona Tal) e Ash (Chad Lindberg).</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>30365 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>45541 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          6d ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/spn/spn.png">\n      </ion-avatar>\n      <h2>Supernatural</h2>\n      <p>1ª Temporada</p>\n    </ion-item>\n\n    <img src="../../assets/imgs/spn/spn-1.jpg">\n\n    <ion-card-content>\n      <p>Após perderem a mãe em um incêndio suspeito há mais de vinte anos atrás, os irmãos Sam (Jared Padalecki) e Dean\n        (Jensen Ackles) Winchester descobrem que seu pai desapareceu durante uma "viagem de caça". Mas John Winchester\n        (Jeffrey Dean Morgan) não é um caçador comum: ele é especializado em capturar criaturas sobrenaturais e treinou\n        seus filhos para que fizessem o mesmo quando crescessem. Enquanto procuram pistas sobre o paradeiro de seu pai,\n        Sam e Dean salvam pessoas inocentes e enfrentam fantasmas, demônios e vampiros.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="thumbs-up"></ion-icon>\n          <div>60154 Likes</div>\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button icon-start clear small>\n          <ion-icon name="text"></ion-icon>\n          <div>82014 Comments</div>\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <ion-note>\n          7d ago\n        </ion-note>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n  \n</ion-content>'/*ion-inline-end:"/home/renan/Vídeos/aula1/src/pages/supernatural/supernatural.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
-    ], SupernaturalPage);
-    return SupernaturalPage;
-}());
-
-//# sourceMappingURL=supernatural.js.map
-
-/***/ }),
-
-/***/ 199:
+/***/ 195:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__supernatural_supernatural__ = __webpack_require__(155);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pll_pll__ = __webpack_require__(153);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__himym_himym__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pg_pg__ = __webpack_require__(151);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -315,8 +141,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-
-
 
 
 
@@ -324,18 +148,12 @@ var HomePage = /** @class */ (function () {
     function HomePage(navCtrl) {
         this.navCtrl = navCtrl;
     }
-    HomePage.prototype.supernaturalClick = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__supernatural_supernatural__["a" /* SupernaturalPage */]);
-    };
-    HomePage.prototype.pllClick = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__pll_pll__["a" /* PllPage */]);
-    };
-    HomePage.prototype.himymClick = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__himym_himym__["a" /* HimymPage */]);
+    HomePage.prototype.pugClick = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pg_pg__["a" /* PugPage */]);
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/home/renan/Vídeos/aula1/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Home\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-card>\n      <ion-item>\n        <ion-avatar item-start>\n          <img src="../../assets/imgs/spn/spn.png">\n        </ion-avatar>\n        <h2>Supernatural</h2>\n      </ion-item>\n    \n      <img src="../../assets/imgs/spn/supernatural.jpg">\n    \n      <ion-card-content>\n        <p>Os irmãos Sam e Dean Winchester encaram cenários sinistros caçando monstros. Velhos truques, armas e esconderijos não funcionam mais e seus amigos os traem, forçando os irmãos a contar um com o outro enquanto enfrentam novos inimigos.</p>\n      </ion-card-content>\n    \n      <ion-row>\n        <ion-col>\n          <button ion-button icon-start (click)="supernaturalClick()" clear small>\n            <div>Ver todas as temporadas</div>\n          </button>\n        </ion-col>\n      </ion-row>\n    \n    </ion-card>\n\n         \n    <ion-card>\n      \n        <ion-item>\n          <ion-avatar item-start>\n            <img src="../../assets/imgs/pll/pll-logo.jpg">\n          </ion-avatar>\n          <h2>Pretty Little Liars</h2>\n        </ion-item>\n      \n        <img src="../../assets/imgs/pll/pll.jpg">\n      \n        <ion-card-content>\n          <p>Já se passaram três anos desde o desaparecimento de Alison. Spencer, Aria, Hanna e Emily, agora no ensino médio, têm um novo desafio: desvendar mensagens anônimas ameaçando contar seus segredos.</p>\n        </ion-card-content>\n      \n        <ion-row>\n          <ion-col>\n            <button ion-button color="primary" (click)="pllClick()"  clear small icon-start>\n              <div>Ver todas as temporadas</div>\n            </button>\n          </ion-col>\n        </ion-row>\n      \n      </ion-card>\n      \n      \n      <ion-card>\n      \n        <ion-item>\n          <ion-avatar item-start>\n            <img src="../../assets/imgs/himym/himym-logo.png">\n          </ion-avatar>\n          <h2>How I Met Your Mother</h2>\n        </ion-item>\n      \n        <img src="../../assets/imgs/himym/himym.jpeg">\n      \n        <ion-card-content>\n          <p>No ano de 2030, Ted Mosby, um arquiteto, decide explicar a seus filhos a história de como ele conheceu a mãe deles. Tudo começou em 2005, quando um de seus amigos decidiu se casar e Ted precisou correr atrás de um amor.</p>\n        </ion-card-content>\n      \n        <ion-row>\n          <ion-col>\n            <button ion-button color="primary" (click)="himymClick()" clear small icon-start>\n              <div>Ver todas as temporadas</div>\n             </button>\n          </ion-col>\n        </ion-row>\n      \n      </ion-card>\n\n</ion-content>'/*ion-inline-end:"/home/renan/Vídeos/aula1/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\thais.lopes\ionic-app-series\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Home\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <ion-card>\n\n      <ion-item>\n\n        <ion-avatar item-start>\n\n          <img src="../../assets/imgs/pugs/pugd.jpg">\n\n        </ion-avatar>\n\n        <h2>Pugs</h2>\n\n      </ion-item>\n\n    \n\n      <img src="../../assets/imgs/pugs/pug.jpg">\n\n    \n\n      <ion-card-content>\n\n        <p>Pug é uma raça de cão de companhia originária da China. Tal afirmação é baseada no fato de terem encontrado cães similares na nação Oriental nos idos de 700 a.C.</p>\n\n      </ion-card-content>\n\n    \n\n      <ion-row>\n\n        <ion-col>\n\n          <button ion-button icon-start (click)="pugClick()" clear small>\n\n            <div>Ver as informações</div>\n\n          </button>\n\n        </ion-col>\n\n      </ion-row>\n\n    \n\n    </ion-card>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\thais.lopes\ionic-app-series\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], HomePage);
@@ -346,13 +164,13 @@ var HomePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 200:
+/***/ 196:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(219);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -360,29 +178,25 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 223:
+/***/ 219:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(273);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_supernatural_supernatural_module__ = __webpack_require__(154);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_himym_himym_module__ = __webpack_require__(150);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_pll_pll_module__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_pg_pg_module__ = __webpack_require__(150);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
-
 
 
 
@@ -404,14 +218,10 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/himym/himym.module#HimymPageModule', name: 'HimymPage', segment: 'himym', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/pll/pll.module#PllPageModule', name: 'PllPage', segment: 'pll', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/supernatural/supernatural.module#SupernaturalPageModule', name: 'SupernaturalPage', segment: 'supernatural', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/pg/pg.module#PugPageModule', name: 'PugPage', segment: 'pg', priority: 'low', defaultHistory: [] }
                     ]
                 }),
-                __WEBPACK_IMPORTED_MODULE_7__pages_supernatural_supernatural_module__["SupernaturalPageModule"],
-                __WEBPACK_IMPORTED_MODULE_8__pages_himym_himym_module__["HimymPageModule"],
-                __WEBPACK_IMPORTED_MODULE_9__pages_pll_pll_module__["PllPageModule"]
+                __WEBPACK_IMPORTED_MODULE_7__pages_pg_pg_module__["PugPageModule"]
             ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
             entryComponents: [
@@ -432,16 +242,16 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 273:
+/***/ 269:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(195);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -467,7 +277,7 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/home/renan/Vídeos/aula1/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/home/renan/Vídeos/aula1/src/app/app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\thais.lopes\ionic-app-series\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\thais.lopes\ionic-app-series\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
@@ -478,5 +288,5 @@ var MyApp = /** @class */ (function () {
 
 /***/ })
 
-},[200]);
+},[196]);
 //# sourceMappingURL=main.js.map

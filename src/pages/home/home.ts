@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { SupernaturalPage } from '../supernatural/supernatural';
-import { PllPage } from '../pll/pll';
-import { HimymPage } from '../himym/himym';
+import { PugPage } from '../pg/pg';
+
 
 @Component({
   selector: 'page-home',
@@ -14,15 +13,8 @@ export class HomePage {
 
   }
   
-  supernaturalClick(){
-    this.navCtrl.push(SupernaturalPage)
-  }
-
-  pllClick(){
-    this.navCtrl.push(PllPage)
-  }
-  himymClick(){
-    this.navCtrl.push(HimymPage)
+  pugClick(){
+    this.navCtrl.push(PugPage)
   }
 
 }
